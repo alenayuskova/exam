@@ -1,0 +1,30 @@
+{
+  "name": "exam",
+  "version": "1.0.0",
+  "description": "> Final exam for checking student knowledge and practical skills",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:variant1": "node --experimental-vm-modules node_modules/jest/bin/jest.js libs/variant1.test.js",
+    "test:variant2": "node --experimental-vm-modules node_modules/jest/bin/jest.js libs/variant2.test.js",
+    "test:variant3": "node --experimental-vm-modules node_modules/jest/bin/jest.js libs/variant3.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alenayuskova/exam.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alenayuskova/exam/issues"
+  },
+  "homepage": "https://github.com/alenayuskova/exam#readme",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
